@@ -1,0 +1,104 @@
+.container>div {
+    background: rgb(32, 132, 136);
+    padding: 1em;
+
+}
+
+/* .container>div:nth-child(odd) {
+    background: rgb(155, 224, 215);
+} */
+.outter{
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    display: grid;
+    grid-template-columns:repeat(6, 1fr 1fr 1fr);
+    grid-gap: 0.3em;
+}
+.box2{
+    grid-column:2/18;
+    background-color:aliceblue;
+}
+.box6{
+    grid-column:3/13;
+    grid-row:2/4;
+    
+}
+.container>.box6, .container>
+.box2, .container>
+ .box_, .container> .box__{
+    background-color: rgb(255, 255, 255);
+}
+
+.container>.box5, .container>
+.box14, .container>
+ .box22, .container> .box40, 
+ .container>
+ .box58, .container> .box76 {
+    background-color: rgb(14, 99, 209);
+}
+.container>.box4, .container>
+.box13, .container>
+ .box21, .container> .box39, 
+ .container>
+ .box57, .container> .box75 {
+    background-color: rgb(193, 14, 209);
+}
+
+.container>.box3, .container>
+.box12, .container>
+ .box20, .container> .box38, 
+ .container>
+ .box56, .container> 
+ .box74 , .container>.box92{
+    background-color: rgba(14, 209, 24, 0.671);
+}
+
+.container>.box11, .container>
+.box19, .container>
+ .box37, .container> .box55, 
+ .container>
+ .box73, .container> .box91 {
+    background-color: rgb(11, 165, 236);
+}
+
+.container>.box15, .container>
+.box33, .container> .box51, 
+ .container>
+ .box52, .container> 
+ .box69 , .container>.box70,
+ .container> .box71, 
+ .container>
+ .box87, .container> 
+ .box88 , .container>.box89,
+  .container>.box90 {
+    background-color: rgba(157, 209, 14, 0.671);
+}
+
+.container>.box8, .container>
+.box17, .container>
+ .box36, .container> .box9, 
+ .container>
+ .box18, .container> .box10 {
+    background-color: rgb(23, 88, 45);
+}
+.container>.box1{
+    display: grid;
+    background-color:aqua;
+    padding: 0;
+    grid-template-rows: 0.5fr, 4fr;
+
+}
+.item2{
+    justify-self: center;
+    align-self: start;
+    padding: 9px;
+}
+.item1{
+    padding-left: 3px;
+    padding-top: 3px;
+    font-size: 8px;
+}
+
+
